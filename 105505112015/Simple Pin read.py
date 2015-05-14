@@ -10,7 +10,6 @@
 
 import RPi.GPIO as GPIO, time
 
-variable="Name"
 
 # Tell the GPIO library to use
 # Broadcom GPIO references
@@ -22,7 +21,7 @@ def RCtime (PiPin):
   # Discharge capacitor
   GPIO.setup(PiPin, GPIO.OUT)
   GPIO.output(PiPin, GPIO.LOW)
-  time.sleep(0.1)
+  time.sleep(5)
 
   GPIO.setup(PiPin, GPIO.IN)
   # Count loops until voltage across
@@ -34,7 +33,5 @@ def RCtime (PiPin):
 
 # Main program loop
 while True:
-  #RCtime(4)= variable
-  #print variable
   print RCtime(4) # Measure timing using GPIO4
   
