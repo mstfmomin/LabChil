@@ -21,7 +21,7 @@ def RCtime (PiPin):
   # Discharge capacitor
   GPIO.setup(PiPin, GPIO.OUT)
   GPIO.output(PiPin, GPIO.LOW)
-  time.sleep(5)
+  time.sleep(0.1)
 
   GPIO.setup(PiPin, GPIO.IN)
   # Count loops until voltage across
