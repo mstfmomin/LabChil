@@ -27,8 +27,8 @@ try:
         host = hostname
     )
     cur = con.cursor()  
-    cur.execute("DROP TABLE IF EXISTS UID001A")
-    cur.execute("""CREATE TABLE UID001A ( mytimestamp timestamp without time zone default (now() at time zone 'utc'), Temparature double precision)""")
+    cur.execute("DROP TABLE IF EXISTS UID002A")
+    cur.execute("""CREATE TABLE UID002A ( mytimestamp timestamp without time zone default (now() at time zone 'utc'), temperature double precision, humidity double precision)""")
     con.commit()
 
 except psycopg2.DatabaseError, e:
