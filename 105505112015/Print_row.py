@@ -36,8 +36,9 @@ try:
         database = database,
         user = username,
         password = password,
-        host = hostname
+        host = hostname       
     )
+    print "Connected to Heroku"
     cur = con.cursor()
     while True:
       temp = RCtime(4)
