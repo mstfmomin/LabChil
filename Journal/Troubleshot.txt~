@@ -1,3 +1,38 @@
 Date: 05/17/2015
 
-GPIO stoped working
+	GPIO stoped working
+
+Date: 05/18
+
+	How to see table name in heroku dataclips
+		SELECT table_name
+		  FROM information_schema.tables
+		 WHERE table_schema='public'
+
+Date: 05/18
+	To-Do:
+		1. Arrange the table in website
+		2. 
+	Audry:
+
+		Register from website... Run createtable.py
+		Beautification of website
+
+		Mobile App. (App store: $100 and $25 to google play)
+		Assembleby
+		smoke detector (2nd Level)
+		payment system (PayPal) Automated payment for invoice
+
+	Mike:
+		Private Alpha testing... Chemistry department... Universal mechine
+		Register: LLC (later change to S corp or C corp).... legal zoom... 
+
+		Company name: LabChil, LabMon, Cloudio, Dexterous, MonIt, (different Version)
+
+		Business Bank account: Money Ban
+
+		How to pay myself: (Les)
+
+		Operating Agreement... Sharing equity
+
+
